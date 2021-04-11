@@ -16,7 +16,7 @@ router.post("/", (req, res, next) => {
   // Create a new transaction for $10
   const newTransaction = gateway.transaction.sale(
     {
-      amount: "10.00",
+      amount: "999.00",
       paymentMethodNonce: nonceFromTheClient,
       options: {
         // This option requests the funds from the transaction
